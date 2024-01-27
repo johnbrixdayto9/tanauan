@@ -361,4 +361,32 @@ span {
     overflow: hidden;
 }
 
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.phonetext {
+    margin-left: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 50px;
+    visibility: collapse;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+@media only screen and (max-width: 414px){
+    .text {
+        visibility: collapse;
+    }
+
+    .phonetext {
+        visibility: visible;
+    }
+}
 
