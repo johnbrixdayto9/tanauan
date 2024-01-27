@@ -1,0 +1,364 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background: url(tanpic.jpg)
+    no-repeat center center;
+    min-height: 30rem;
+}
+
+.wrapper__about{
+     background: url(instipic.jpg)
+    no-repeat center center;
+    min-height: 30rem;
+    background-size: cover;
+    
+}
+
+
+
+.wrapper__contact {
+    background: url(tac.jpg)
+    no-repeat center center;
+    min-height: 50rem;
+   background-size: contain;
+    
+}
+.wrapper__behavior {
+    background: url(shes.jpg)
+    no-repeat center center;
+    min-height: 50rem;
+   background-size: contain;
+    
+}
+.wrapper__philo {
+    background: url(fim.jpg)
+    no-repeat center center;
+    min-height: 50rem;
+    min-width: 50rem;
+    background-size: contain;
+    
+}
+.wrapper__pe {
+    background: url(fed.jpg)
+    no-repeat center center;
+    min-height: 50rem;
+    min-width: 50rem;
+    background-size: contain;
+    
+}
+.wrapper__prac2 {
+    background: url(prac2.jpg)
+    no-repeat center center;
+    min-height: 50rem;
+    min-width: 50rem;
+    background-size: contain;
+    
+}
+.wrapper__filakad {
+    background: url(filakad.jpg)
+    no-repeat center center;
+    min-height: 50rem;
+    min-width: 50rem;
+    background-size: contain;
+    
+}
+.wrapper__ssc {
+    background: url(ssc.jpg)
+    no-repeat center center;
+    min-height: 50rem;
+    min-width: 50rem;
+    background-size: contain;
+    
+}
+
+.wrapper__announcement {
+    background: url(ti.jpg)
+    no-repeat center center;
+    min-height: 60rem;
+    background-size: contain;
+    min-width: 60rem;
+    }
+
+
+.wrapper__humss {
+ background: url(film.jpg)
+ no-repeat center center;
+ min-height: 50rem;
+ min-width: 60rem;
+        
+        
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #0005;
+    line-height: 80px;
+}
+
+nav ul{
+    margin: 0;
+    margin-right: 1.9rem;
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+
+img{
+    width: 12%;
+    margin-left: 1.9rem;
+    margin-top: -4%;
+}
+
+nav ul li:hover{
+    background-color: coral;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.section h1{
+    color: #fff;
+    line-height: 50px;
+}
+
+.section p{
+    color: gray;
+}
+
+.btn-1{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#courses{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#courses img{
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: auto;
+}
+
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 4%;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+span {
+    
+    min-height: 30rem;
+    background-size: cover;
+    height: 100vh;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .video-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  #background-video {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .video-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+  }
+
+  
+  .slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .slides img {
+    width: 100%;
+    display: none;
+  }
+  
+  .slides img:first-child {
+    display: block;
+  } 
+
+  body{
+    background-color: #eaeaea;
+    overflow: hidden;
+}
+
+
